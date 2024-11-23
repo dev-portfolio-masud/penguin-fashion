@@ -11,6 +11,10 @@ body{
     justify-content: space-between;
     display: flex;
 }
+.header-section{
+    box-shadow: 3px 4px 5px;
+    background-color: rgba(248, 248, 225, 0.562);
+}
 .logo img{
     width: 70%;
 }
@@ -33,6 +37,8 @@ body{
     align-items: center;
     display: flex;
 }
+
+
 .content-area p{
     padding: 0;
 }
@@ -61,3 +67,102 @@ font-size: 3.2em;}
     height: 25px;
 background-color: rgba(65, 121, 9, 0.712);}
 /* top-section end */
+/* woman jaket style start */
+.jaket-item{
+    gap: 45PX;
+    
+    justify-content: space-around;
+display: flex;
+}
+.singal-jaket img{
+    border-radius: 6PX;
+    padding: 16PX;
+    background-color: rgba(146, 145, 155, 0.322);
+    align-items: center;
+    width: 55%;
+}
+.singal-jaket{
+    height: 500px;
+    width: 400px;
+    padding: 0;
+    background-color: white;
+    border-radius: 5px;
+    box-shadow: 2px 2px 3px;
+}
+.singal-jaket .product-tittle{
+    padding: 0;
+    margin: 0;
+}
+.singal-jaket .product-description{
+    font-size: 15PX;
+   display: flex;
+   flex-direction: column;
+   align-content: center;
+   align-items: center;
+   justify-content: center;
+    /* padding: 10PX; */
+}
+.singal-jaket .prising-area{
+    display: flex;
+    /* justify-content: space-between; */
+}
+.prising-area{
+    gap: 82px;
+    align-items: center;
+}
+.prising-area span{
+    font-size: 2em;
+    color: orange;
+}
+.prising-area .button a{
+    text-decoration: none;
+    color: white;
+}
+.prising-area .button{
+    text-decoration: none;
+    border-radius: 6px;
+    padding: 15px;
+    width: 120px;
+    height: 25px;
+background-color: rgba(65, 121, 9, 0.712)
+}
+/* woman jaket style end */
+/* fotter area style start */
+.flex-box{
+    align-items: center;
+    display: flex;
+}
+.house{
+    border-radius: 4px;
+    box-shadow: 2px 2x 2px;
+    background-color: white;
+    align-items: center;
+}
+.house h2{
+    font-size: 23px;
+    padding: 0;
+    margin: 0;
+}
+.house{
+    
+    gap: 7px;
+    display: flex;
+}
+.house p{
+    padding: 0;
+    margin: 0;
+}
+.house .discribe{
+    display: flex;
+    flex-direction: column;
+}
+.content{
+    gap: 7px;
+    padding: 10px;
+}
+.house img{
+    height: 100px;
+width: 85px;}
+.image img{
+    width: 90%;
+}
